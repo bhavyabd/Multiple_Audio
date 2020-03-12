@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Multiple Audios</title>
+</head>
+<script src="aud.js"></script>
+
+<body>
+    <button onclick="playaud(this)" type="button" id = "planeButton">Plane </button>
+    <button onclick="playaud(this)" type="button" id = "policeButton">police </button>
+    <button onclick="playaud(this)" type="button" id = "officeButton">Offfice </button>
+
+    <audio id="plane" loop>
+        <source src="audio\plane.mp3" type="audio/mpeg" loop>
+        <source src="audio\plane.ogg" type="audio/ogg">
+    </audio>
+    <audio id="police" loop>
+        <source src="audio\police_siren_3.mp3" type="audio/mpeg" loop>
+        <source src="audio\police_siren_3.ogg" type="audio/ogg">
+    </audio>
+    <audio id="office" loop>
+        <source src="audio\office_phone_ringigng.mp3" type="audio/mpeg" loop>
+        <source src="audio\office_phone_ringigng.ogg" type="audio/ogg">
+    </audio>
+    
+</body>
+
+</html>
